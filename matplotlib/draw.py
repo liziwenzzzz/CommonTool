@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
-
 import numpy as np
+
+
 def get_file(acc_list,loss_list,filename):
     f1 = open(filename, 'r')
     for line in f1.readlines():
